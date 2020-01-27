@@ -27,3 +27,17 @@
     width: 100%;
     height: -webkit-fill-available;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .gallery {
+      text-align: center;
+      display: inline;
+    }
+  }
