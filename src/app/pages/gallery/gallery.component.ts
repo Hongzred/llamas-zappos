@@ -9,35 +9,35 @@ export class GalleryComponent implements OnInit {
   items = [
     {
       caption: 'I am social',
-      link: 'https://i.imgur.com/7CcgDCa.png'
+      link: './assets/images/7CcgDCa.png'
     },
     {
       caption: 'I am smart',
-      link: 'https://i.imgur.com/Nrebfux.png'
+      link: './assets/images/Nrebfux.png'
     },
     {
       caption: 'I am camel hippie cousin',
-      link: 'https://i.imgur.com/iyh3hKu.png'
+      link: './assets/images/iyh3hKu.png'
     },
     {
       caption: 'I am diabetic',
-      link: 'https://i.imgur.com/x6EmqKe.png'
+      link: './assets/images/x6EmqKe.png'
     },
     {
       caption: 'I am cute',
-      link: 'https://i.imgur.com/21hu3YL.png'
+      link: './assets/images/21hu3YL.png'
     },
     {
       caption: 'I am cool',
-      link: 'https://i.imgur.com/h3NDZ9B.png'
+      link: './assets/images/h3NDZ9B.png'
     },
     {
       caption: 'I can travel for long distance',
-      link: 'https://i.imgur.com/LVILcTw.png'
+      link: './assets/images/LVILcTw.png'
     },
     {
       caption: 'I am Llama',
-      link: 'https://i.imgur.com/hMfRAMH.png'
+      link: './assets/images/hMfRAMH.png'
     },
   ];
   constructor() {}
