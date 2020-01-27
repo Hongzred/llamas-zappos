@@ -7,7 +7,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: '/',
     component: HomeComponent
   },
   {
