@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class FigureComponent implements OnInit {
   @Input() text = '';
+  @Input() link = 'https://i.imgur.com/Nrebfux.png';
   constructor() { }
 
   ngOnInit() {
