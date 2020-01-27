@@ -6,8 +6,6 @@
   </div>
 </div>
 <div class="container">
-  <app-box-content></app-box-content>
-  <app-box-content></app-box-content>
-  <app-box-content></app-box-content>
-  <app-box-content></app-box-content>
+  <app-box-content *ngFor="let item of content" title="{{item.title}}" description="{{item.description}}"></app-box-content>
+
 </div>
